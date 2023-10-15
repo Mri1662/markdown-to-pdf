@@ -1,0 +1,66 @@
+body, h2, form {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     background-color: #f0f0f0;
+ }
+ 
+ h2 {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px;
+ }
+ 
+ form {
+     margin: 20px;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ textarea {
+     width: 90%;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     resize: vertical;
+ }
+ 
+ input[type="file"] {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+ 
+ button[type="submit"] {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+ 
+ button[type="submit"]:hover {
+     background-color: #0056b3;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #007bff;
+     font-weight: bold;
+ }
+ 
+ /* Responsive design for smaller screens */
+ @media (max-width: 600px) {
+     textarea, input[type="file"] {
+         width: 100%;
+     }
+ }
+ 

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+     <h1>Markdown to PDF Converter</h1>
+     <form action="/convert" method="POST" enctype="multipart/form-data">
+          <h2>Write or Upload Markdown</h2>
+          <textarea name="markdown" rows="20" cols="10"></textarea>
+          <input type="file" name="mdFile">
+          <button type="submit">Convert to PDF</button>
+     </form> 
+</body>
+</html>
